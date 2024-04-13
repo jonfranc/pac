@@ -81,6 +81,7 @@ if (isPlainHostName(host)                       ||
  urllower.substring(0,6)=="rtspu:"              ||
  urllower.substring(0,4)=="mms:"                ||
  urllower.substring(0,5)=="mmst:"               ||
+ urllower.substring(0,4)=="ssh:"               ||
  urllower.substring(0,5)=="mmsu:") {
  return "DIRECT"; }
  if (shExpMatch(host,"*.bosch.com")             ||
