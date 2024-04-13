@@ -17,6 +17,7 @@ if (isPlainHostName(host)                       ||
  shExpMatch(host, "fe80::*")	||
  shExpMatch(host, "localhost")	||
  shExpMatch(host, "*.etasgroup.com")	||
+ shExpMatch(host, "*.spotify.com")	||
  shExpMatch(host, "*.intranet.escrypt.com")	||
  shExpMatch(host, "*.de.bosch.com")	||
  shExpMatch(host, "*.emea.bosch.com")	||
